@@ -1,0 +1,89 @@
+$colorfondo : #f3f5fc;
+$colorprimario: #20497e;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: $colorfondo;
+}
+
+
+main{
+    #texto{
+        position: absolute;
+        left: 240px;
+        top: 168px;
+        font-family: 'Inter';
+        font-size: 32px;
+        color: $colorprimario;
+    }
+
+    #acciones{
+        
+        #condicion{
+            position: absolute;
+            left: 264px;
+            top: 851px;
+            font-family: 'Inter';
+            opacity: 0.8;
+            color: #495057;
+            font-size: 12px;
+        }
+
+        #botones{
+            position: absolute;
+            left: 240px;
+            top: 885px;
+           
+
+            .boton1{
+                background-color: $colorprimario;
+                width: 328px;
+                height: 67px;
+                border-radius: 24px;
+                font-family: 'Inter';
+                color: white;
+                font-size: 16px;
+                border: 1px solid $colorprimario;
+            }
+
+            .boton2{
+                background-color: #D8DFE8;
+                width: 328px;
+                height: 67px;
+                border-radius: 24px;
+                font-family: 'Inter';
+                color: $colorprimario;
+                font-size: 16px;
+                border: 1px solid $colorprimario;
+                margin-left: 15px;
+            }
+        }
+
+    }
+
+
+
+
+}
+
+
+
+
+
+aside{
+    border: 1px solid green;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;    
+}
