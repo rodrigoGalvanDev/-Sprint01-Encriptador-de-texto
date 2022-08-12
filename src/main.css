@@ -3,12 +3,18 @@ body {
   background-color: #f3f5fc;
 }
 
+header svg {
+  position: absolute;
+  left: 84px;
+  top: 40px;
+}
+
 main #texto {
   position: absolute;
   left: 240px;
   top: 168px;
 }
-main #texto input {
+main #texto textarea {
   font-family: "Inter";
   font-size: 32px;
   color: #20497e;
@@ -16,6 +22,7 @@ main #texto input {
   background-color: #f3f5fc;
   outline: none;
   width: 730px;
+  resize: none;
 }
 main #texto ::-moz-placeholder {
   color: #20497e;
@@ -25,6 +32,11 @@ main #texto :-ms-input-placeholder {
 }
 main #texto ::placeholder {
   color: #20497e;
+}
+main #acciones svg {
+  position: absolute;
+  left: 245px;
+  top: 862px;
 }
 main #acciones #condicion {
   position: absolute;
@@ -63,7 +75,6 @@ main #acciones #botones .boton2 {
 }
 
 aside {
-  border: 1px solid green;
   display: inline-block;
   position: absolute;
   width: 400px;
