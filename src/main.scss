@@ -12,9 +12,21 @@ main{
         position: absolute;
         left: 240px;
         top: 168px;
-        font-family: 'Inter';
-        font-size: 32px;
-        color: $colorprimario;
+        
+
+        input{
+            font-family: 'Inter';
+            font-size: 32px;
+            color: $colorprimario;
+            border: 0px;
+            background-color: $colorfondo;
+            outline: none;
+            width: 730px;
+        }
+
+        ::placeholder {
+            color: $colorprimario;
+          }
     }
 
     #acciones{
@@ -85,5 +97,33 @@ aside{
     /* shadow */
 
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;    
+    border-radius: 32px;
+    
+    div{
+
+        .error{
+            position: absolute;
+            top: 579px;
+            left: 32px;
+            width: 336px;
+            height: 58px;
+            font-family: 'Inter';
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .consejo{
+            position: absolute;
+            top: 653px;
+            left: 32px;
+            width: 336px;
+            height: 48px;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            color: #495057;
+        }
+    }
 }
