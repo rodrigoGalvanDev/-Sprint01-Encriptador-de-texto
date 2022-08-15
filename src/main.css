@@ -136,28 +136,24 @@ aside div .consejo {
     width: 350px;
   }
   main #texto {
-    left: 20px;
+    left: 40px;
     top: 100px;
   }
   main #texto textarea {
-    border: 1px solid red;
     font-size: 25px;
     width: 340px;
     height: 400px;
   }
   main #acciones .alerta {
-    left: 20px;
-    border: 1px solid red;
+    left: 40px;
     top: 530px;
   }
   main #acciones #condicion {
-    left: 40px;
+    left: 60px;
     top: 519px;
-    border: 1px solid red;
   }
   main #acciones #botones {
-    border: 1px solid red;
-    left: 20px;
+    left: 40px;
     width: 330px;
     top: 570px;
   }
@@ -168,8 +164,7 @@ aside div .consejo {
   aside {
     width: 327px;
     height: 186px;
-    border: 1px solid red;
-    left: 24px;
+    left: 40px;
     top: 750px;
   }
   aside div img {
@@ -178,10 +173,8 @@ aside div .consejo {
   aside div .error {
     left: -10px;
     top: 25px;
-    border: 1px solid red;
   }
   aside div .consejo {
-    border: 1px solid red;
     left: 40px;
     top: 100px;
     width: 250px;

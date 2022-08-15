@@ -182,11 +182,10 @@ aside{
 
         width: 350px;
         #texto{
-            left: 20px;
+            left: 40px;
             top: 100px;
 
             textarea{
-                border: 1px solid red;
                 font-size: 25px;
                 width: 340px;
                 height: 400px;
@@ -195,20 +194,17 @@ aside{
 
         #acciones{
             .alerta{
-                left: 20px;
-                border: 1px solid red;
+                left: 40px;
                 top: 530px;
             }
 
             #condicion{
-                left: 40px;
+                left: 60px;
                 top: 519px;
-                border: 1px solid red;
             }
 
             #botones{
-                border: 1px solid red;
-                left: 20px;
+                left: 40px;
                 width: 330px;
                 top: 570px;
 
@@ -226,8 +222,7 @@ aside{
 
         width: 327px;
         height: 186px;
-        border: 1px solid red;
-        left: 24px;
+        left: 40px;
         top: 750px;
 
         div{
@@ -239,11 +234,9 @@ aside{
             .error{
                 left: -10px;
                 top: 25px;
-                border: 1px solid red;
             }
 
             .consejo{
-                border: 1px solid red;
                 left: 40px;
                 top: 100px;
                 width: 250px;
