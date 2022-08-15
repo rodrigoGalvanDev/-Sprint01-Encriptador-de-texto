@@ -152,7 +152,74 @@ aside{
 
 //Responsive Design Table
 
-@media only screen and (max-width: 810px) {
+@media only screen and (min-width: 810px) and (max-width: 1000px) {
+    
+
+    header{
+
+        svg{
+            left: 40px;
+            top: 70px;
+        }
+    }
+
+    main{
+
+        #texto{
+            left: 40px;
+            top: 200px;
+
+            textarea{
+                height: 580px;
+            }
+        }
+
+        #acciones{
+
+            .alerta{
+                top: 800px;
+                left: 40px;
+            }
+
+            #condicion{
+                top: 790px;
+                left: 60px;
+            }
+
+            #botones{
+
+                left: 40px;
+            }
+        }
+    }
+
+    aside{
+        position: absolute;
+        width: 688px;
+        height: 133px;
+        left: 40px;
+        top: 950px;
+
+        div{
+
+            img{
+                display: none;
+            }
+
+            .error{
+                left: 140px;
+                top: 10px;
+                width: 400px;
+            }
+
+            .consejo{
+                left: 140px;
+                top: 70px;
+                width: 400px;
+            }
+        }
+    }
+
 
 }
 

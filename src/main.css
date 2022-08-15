@@ -119,6 +119,50 @@ aside div .consejo {
   color: #495057;
 }
 
+@media only screen and (min-width: 810px) and (max-width: 1000px) {
+  header svg {
+    left: 40px;
+    top: 70px;
+  }
+  main #texto {
+    left: 40px;
+    top: 200px;
+  }
+  main #texto textarea {
+    height: 580px;
+  }
+  main #acciones .alerta {
+    top: 800px;
+    left: 40px;
+  }
+  main #acciones #condicion {
+    top: 790px;
+    left: 60px;
+  }
+  main #acciones #botones {
+    left: 40px;
+  }
+  aside {
+    position: absolute;
+    width: 688px;
+    height: 133px;
+    left: 40px;
+    top: 950px;
+  }
+  aside div img {
+    display: none;
+  }
+  aside div .error {
+    left: 140px;
+    top: 10px;
+    width: 400px;
+  }
+  aside div .consejo {
+    left: 140px;
+    top: 70px;
+    width: 400px;
+  }
+}
 @media only screen and (max-width: 440px) {
   html {
     overflow-x: hidden;
