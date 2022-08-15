@@ -95,7 +95,7 @@ aside div img {
   top: 243px;
   left: 32px;
 }
-aside div .error {
+aside div #error {
   position: absolute;
   top: 579px;
   left: 32px;
@@ -106,7 +106,7 @@ aside div .error {
   font-weight: 700;
   text-align: center;
 }
-aside div .consejo {
+aside div #consejo {
   position: absolute;
   top: 653px;
   left: 32px;
@@ -117,6 +117,10 @@ aside div .consejo {
   font-size: 16px;
   text-align: center;
   color: #495057;
+}
+
+.oculto {
+  display: none;
 }
 
 @media only screen and (min-width: 810px) and (max-width: 1000px) {
@@ -152,12 +156,12 @@ aside div .consejo {
   aside div img {
     display: none;
   }
-  aside div .error {
+  aside div #error {
     left: 140px;
     top: 10px;
     width: 400px;
   }
-  aside div .consejo {
+  aside div #consejo {
     left: 140px;
     top: 70px;
     width: 400px;
@@ -214,11 +218,11 @@ aside div .consejo {
   aside div img {
     display: none;
   }
-  aside div .error {
+  aside div #error {
     left: -10px;
     top: 25px;
   }
-  aside div .consejo {
+  aside div #consejo {
     left: 40px;
     top: 100px;
     width: 250px;

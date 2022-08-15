@@ -123,7 +123,7 @@ aside{
             left: 32px;
         }
 
-        .error{
+        #error{
             position: absolute;
             top: 579px;
             left: 32px;
@@ -135,7 +135,7 @@ aside{
             text-align: center;
         }
 
-        .consejo{
+        #consejo{
             position: absolute;
             top: 653px;
             left: 32px;
@@ -148,6 +148,10 @@ aside{
             color: #495057;
         }
     }
+}
+
+.oculto{
+    display: none;
 }
 
 //Responsive Design Table
@@ -206,13 +210,13 @@ aside{
                 display: none;
             }
 
-            .error{
+            #error{
                 left: 140px;
                 top: 10px;
                 width: 400px;
             }
 
-            .consejo{
+            #consejo{
                 left: 140px;
                 top: 70px;
                 width: 400px;
@@ -298,12 +302,12 @@ aside{
                 display: none;
             }
 
-            .error{
+            #error{
                 left: -10px;
                 top: 25px;
             }
 
-            .consejo{
+            #consejo{
                 left: 40px;
                 top: 100px;
                 width: 250px;
