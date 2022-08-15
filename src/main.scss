@@ -41,7 +41,8 @@ main{
     }
 
     #acciones{
-        svg{
+
+        .alerta{
             position: absolute;
             left: 245px;
             top: 790px;
@@ -60,7 +61,6 @@ main{
             position: absolute;
             left: 240px;
             top: 830px;
-           
 
             .boton1{
                 background-color: $colorprimario;
@@ -148,4 +148,109 @@ aside{
             color: #495057;
         }
     }
+}
+
+//Responsive Design Table
+
+@media only screen and (max-width: 810px) {
+
+}
+
+//Responsive Design Mobile
+
+@media only screen and (max-width: 440px) {
+
+
+    html {
+        overflow-x: hidden; 
+        width: 350px;
+    }
+
+
+
+    header{
+
+        width: 350px;
+       svg{
+            left: 10px;
+            top: 20px;
+            height: 40px;
+        }
+    }
+
+    main{
+
+        width: 350px;
+        #texto{
+            left: 20px;
+            top: 100px;
+
+            textarea{
+                border: 1px solid red;
+                font-size: 25px;
+                width: 340px;
+                height: 400px;
+            }
+        }
+
+        #acciones{
+            .alerta{
+                left: 20px;
+                border: 1px solid red;
+                top: 530px;
+            }
+
+            #condicion{
+                left: 40px;
+                top: 519px;
+                border: 1px solid red;
+            }
+
+            #botones{
+                border: 1px solid red;
+                left: 20px;
+                width: 330px;
+                top: 570px;
+
+                .boton2{
+                    margin-top: 10px;
+                    margin-left: 0px;
+                }
+            }
+
+        }
+
+    }
+
+    aside{
+
+        width: 327px;
+        height: 186px;
+        border: 1px solid red;
+        left: 24px;
+        top: 750px;
+
+        div{
+
+            img{
+                display: none;
+            }
+
+            .error{
+                left: -10px;
+                top: 25px;
+                border: 1px solid red;
+            }
+
+            .consejo{
+                border: 1px solid red;
+                left: 40px;
+                top: 100px;
+                width: 250px;
+            }
+        }
+    }
+
+
+
 }

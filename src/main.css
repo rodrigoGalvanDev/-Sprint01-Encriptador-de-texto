@@ -34,7 +34,7 @@ main #texto :-ms-input-placeholder {
 main #texto ::placeholder {
   color: #20497e;
 }
-main #acciones svg {
+main #acciones .alerta {
   position: absolute;
   left: 245px;
   top: 790px;
@@ -117,4 +117,73 @@ aside div .consejo {
   font-size: 16px;
   text-align: center;
   color: #495057;
+}
+
+@media only screen and (max-width: 440px) {
+  html {
+    overflow-x: hidden;
+    width: 350px;
+  }
+  header {
+    width: 350px;
+  }
+  header svg {
+    left: 10px;
+    top: 20px;
+    height: 40px;
+  }
+  main {
+    width: 350px;
+  }
+  main #texto {
+    left: 20px;
+    top: 100px;
+  }
+  main #texto textarea {
+    border: 1px solid red;
+    font-size: 25px;
+    width: 340px;
+    height: 400px;
+  }
+  main #acciones .alerta {
+    left: 20px;
+    border: 1px solid red;
+    top: 530px;
+  }
+  main #acciones #condicion {
+    left: 40px;
+    top: 519px;
+    border: 1px solid red;
+  }
+  main #acciones #botones {
+    border: 1px solid red;
+    left: 20px;
+    width: 330px;
+    top: 570px;
+  }
+  main #acciones #botones .boton2 {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  aside {
+    width: 327px;
+    height: 186px;
+    border: 1px solid red;
+    left: 24px;
+    top: 750px;
+  }
+  aside div img {
+    display: none;
+  }
+  aside div .error {
+    left: -10px;
+    top: 25px;
+    border: 1px solid red;
+  }
+  aside div .consejo {
+    border: 1px solid red;
+    left: 40px;
+    top: 100px;
+    width: 250px;
+  }
 }/*# sourceMappingURL=main.css.map */
