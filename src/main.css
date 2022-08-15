@@ -12,7 +12,7 @@ header svg {
 main #texto {
   position: absolute;
   left: 240px;
-  top: 168px;
+  top: 140px;
 }
 main #texto textarea {
   font-family: "Inter";
@@ -22,6 +22,7 @@ main #texto textarea {
   background-color: #f3f5fc;
   outline: none;
   width: 730px;
+  height: 600px;
   resize: none;
 }
 main #texto ::-moz-placeholder {
@@ -36,12 +37,12 @@ main #texto ::placeholder {
 main #acciones svg {
   position: absolute;
   left: 245px;
-  top: 862px;
+  top: 790px;
 }
 main #acciones #condicion {
   position: absolute;
   left: 264px;
-  top: 851px;
+  top: 779px;
   font-family: "Inter";
   opacity: 0.8;
   color: #495057;
@@ -50,7 +51,7 @@ main #acciones #condicion {
 main #acciones #botones {
   position: absolute;
   left: 240px;
-  top: 885px;
+  top: 830px;
 }
 main #acciones #botones .boton1 {
   background-color: #20497e;
@@ -78,14 +79,21 @@ aside {
   display: inline-block;
   position: absolute;
   width: 400px;
-  height: 944px;
+  height: 900px;
   left: 1000px;
-  top: 40px;
+  top: 30px;
   /* White */
   background: #FFFFFF;
   /* shadow */
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
+}
+aside div img {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  top: 243px;
+  left: 32px;
 }
 aside div .error {
   position: absolute;

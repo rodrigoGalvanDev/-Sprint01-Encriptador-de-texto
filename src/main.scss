@@ -20,7 +20,7 @@ main{
     #texto{
         position: absolute;
         left: 240px;
-        top: 168px;
+        top: 140px;
         
 
         textarea{
@@ -31,6 +31,7 @@ main{
             background-color: $colorfondo;
             outline: none;
             width: 730px;
+            height: 600px;
             resize: none;
         }
 
@@ -43,12 +44,12 @@ main{
         svg{
             position: absolute;
             left: 245px;
-            top: 862px;
+            top: 790px;
         }
         #condicion{
             position: absolute;
             left: 264px;
-            top: 851px;
+            top: 779px;
             font-family: 'Inter';
             opacity: 0.8;
             color: #495057;
@@ -58,7 +59,7 @@ main{
         #botones{
             position: absolute;
             left: 240px;
-            top: 885px;
+            top: 830px;
            
 
             .boton1{
@@ -100,9 +101,9 @@ aside{
     display: inline-block;
     position: absolute;
     width: 400px;
-    height: 944px;
+    height: 900px;
     left: 1000px;
-    top: 40px;
+    top: 30px;
 
     /* White */
 
@@ -113,6 +114,14 @@ aside{
     border-radius: 32px;
     
     div{
+
+        img{
+            position: absolute;
+            width: 336px;
+            height: 304px;
+            top: 243px;
+            left: 32px;
+        }
 
         .error{
             position: absolute;
