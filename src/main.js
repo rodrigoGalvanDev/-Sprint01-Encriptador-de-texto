@@ -7,6 +7,7 @@ const $munieco = document.querySelector("#munieco")
 const $mostrarTexto = document.querySelector("#mostrarTexto")
 const $botonCopiar = document.querySelector("#botonCopiar")
 const $mensajeCopiado = document.querySelector("#mensajeCopiado")
+const $bloqueTexto = document.querySelector("#bloqueTexto")
 
 
 function encriptar(){
@@ -60,12 +61,14 @@ function limpiar(){
     $mostrarTexto.classList.add("oculto")
     $botonCopiar.classList.add("oculto")
     $mensajeCopiado.classList.add("oculto")
+    $bloqueTexto.classList.remove("fitcontent")
 
 }
 
 function mostrarTexto(texto){
 
     $mostrarTexto.classList.remove("oculto")
+    $bloqueTexto.classList.add('fitcontent')
     $mostrarTexto.innerHTML = texto
 
 }

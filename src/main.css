@@ -255,11 +255,24 @@ aside div #consejo {
     margin-top: 10px;
     margin-left: 0px;
   }
+  .fitcontent {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
   aside {
     width: 327px;
     height: 186px;
     left: 40px;
     top: 750px;
+  }
+  aside div #mostrarTexto {
+    border: 1px solid red;
+    width: 280px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
   aside div img {
     display: none;
@@ -272,5 +285,18 @@ aside div #consejo {
     left: 40px;
     top: 100px;
     width: 250px;
+  }
+  aside div #botonCopiar {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 35px;
+    width: 250px;
+  }
+  aside div #mensajeCopiado {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 100px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -343,6 +343,12 @@ aside{
 
     }
 
+    .fitcontent{
+
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
     aside{
 
         width: 327px;
@@ -351,6 +357,12 @@ aside{
         top: 750px;
 
         div{
+
+            #mostrarTexto{
+                border: 1px solid red;
+                width: 280px;
+                height: max-content;
+            }
 
             img{
                 display: none;
@@ -366,6 +378,22 @@ aside{
                 top: 100px;
                 width: 250px;
             }
+
+            #botonCopiar{
+                position: relative;
+                left: 0px;
+                top: 0px;
+                margin-left: 35px;
+                width: 250px;
+            }
+
+            #mensajeCopiado{
+                position: relative;
+                left: 0px;
+                top: 0px;
+                margin-left: 100px;
+            }
+
         }
     }
 
