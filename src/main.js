@@ -15,13 +15,14 @@ function encriptar(){
     let regex = /[a-z ]+/gm
 
     if(regex.test($textInput.value) == true){
-        let texto = $textInput.value;
+        var texto = $textInput.value;
         texto = texto.replace(/e/g , "enter")
         texto = texto.replace(/i/g , "imes")
         texto = texto.replace(/a/g , "ai")
         texto = texto.replace(/o/g , "ober")
         texto = texto.replace(/u/g , "ufat")
         mostrarTexto(texto)
+        mostrarBoton()
     } else{
         mostrarError()
     }
@@ -35,7 +36,7 @@ function desencriptar(){
     let regex = /[a-z ]+/gm
 
     if(regex.test($textInput.value) == true){
-        let texto = $textInput.value;
+        var texto = $textInput.value;
         texto = texto.replace(/enter/g , "e")
         texto = texto.replace(/imes/g , "i")
         texto = texto.replace(/ai/g , "a")
@@ -72,6 +73,12 @@ function mostrarBoton(){
 
 }
 
+function copiarTexto(){
+
+    navigator.clipboard.writeText($mostrarTexto.innerText);
+
+}
+
 
 function mostrarError(){
 
@@ -84,3 +91,4 @@ function mostrarError(){
 
 $botonDesencriptar.onclick = desencriptar
 $botonEncriptar.onclick = encriptar
+$botonCopiar.onclick = copiarTexto
