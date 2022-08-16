@@ -210,7 +210,7 @@ aside{
 
 //Responsive Design Table
 
-@media only screen and (min-width: 810px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
 
     header{
@@ -229,6 +229,7 @@ aside{
 
             textarea{
                 height: 580px;
+                width: 700px;
             }
         }
 
@@ -251,6 +252,12 @@ aside{
         }
     }
 
+    .fitcontent{
+
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
     aside{
         position: absolute;
         width: 688px;
@@ -259,6 +266,11 @@ aside{
         top: 950px;
 
         div{
+
+            #mostrarTexto{
+                width: 645px;
+                height: fit-content;
+            }
 
             img{
                 display: none;
@@ -274,6 +286,21 @@ aside{
                 left: 140px;
                 top: 70px;
                 width: 400px;
+            }
+
+            #botonCopiar{
+                position: relative;
+                left: 0px;
+                top: 0px;
+                margin-left: 220px;
+                width: 250px;
+            }
+
+            #mensajeCopiado{
+                position: relative;
+                left: 0px;
+                top: 0px;
+                margin-left: 290px;
             }
         }
     }
@@ -359,7 +386,6 @@ aside{
         div{
 
             #mostrarTexto{
-                border: 1px solid red;
                 width: 280px;
                 height: max-content;
             }

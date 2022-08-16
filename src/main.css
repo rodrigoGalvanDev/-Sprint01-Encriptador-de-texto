@@ -169,7 +169,7 @@ aside div #consejo {
   display: none;
 }
 
-@media only screen and (min-width: 810px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   header svg {
     left: 40px;
     top: 70px;
@@ -180,6 +180,7 @@ aside div #consejo {
   }
   main #texto textarea {
     height: 580px;
+    width: 700px;
   }
   main #acciones .alerta {
     top: 800px;
@@ -192,12 +193,24 @@ aside div #consejo {
   main #acciones #botones {
     left: 40px;
   }
+  .fitcontent {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
   aside {
     position: absolute;
     width: 688px;
     height: 133px;
     left: 40px;
     top: 950px;
+  }
+  aside div #mostrarTexto {
+    width: 645px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   aside div img {
     display: none;
@@ -211,6 +224,19 @@ aside div #consejo {
     left: 140px;
     top: 70px;
     width: 400px;
+  }
+  aside div #botonCopiar {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 220px;
+    width: 250px;
+  }
+  aside div #mensajeCopiado {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 290px;
   }
 }
 @media only screen and (max-width: 440px) {
@@ -268,7 +294,6 @@ aside div #consejo {
     top: 750px;
   }
   aside div #mostrarTexto {
-    border: 1px solid red;
     width: 280px;
     height: -webkit-max-content;
     height: -moz-max-content;
