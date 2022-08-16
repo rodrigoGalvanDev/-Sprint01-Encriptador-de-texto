@@ -88,6 +88,29 @@ aside {
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
 }
+aside div p {
+  width: 360px;
+  height: 790px;
+  margin-left: 15px;
+  padding-left: 10px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  color: #495057;
+}
+aside div #botonCopiar {
+  background-color: white;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-family: "Inter";
+  color: #20497e;
+  font-size: 16px;
+  border: 1px solid #20497e;
+  position: absolute;
+  left: 32px;
+  top: 800px;
+}
 aside div img {
   position: absolute;
   width: 336px;

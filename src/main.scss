@@ -115,6 +115,31 @@ aside{
     
     div{
 
+        p{  
+            width: 360px;
+            height: 790px;
+            margin-left: 15px;
+            padding-left: 10px;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 24px;
+            color: #495057;
+        }
+
+        #botonCopiar{
+            background-color: white;
+            width: 328px;
+            height: 67px;
+            border-radius: 24px;
+            font-family: 'Inter';
+            color: $colorprimario;
+            font-size: 16px;
+            border: 1px solid $colorprimario;
+            position: absolute;
+            left: 32px;
+            top: 800px;
+        }
+
         img{
             position: absolute;
             width: 336px;
