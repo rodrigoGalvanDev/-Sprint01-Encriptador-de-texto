@@ -62,6 +62,11 @@ main #acciones #botones .boton1 {
   color: white;
   font-size: 16px;
   border: 1px solid #20497e;
+  cursor: pointer;
+  transition: transform ease 300ms;
+}
+main #acciones #botones .boton1:hover {
+  transform: translateY(-0.25em);
 }
 main #acciones #botones .boton2 {
   background-color: #D8DFE8;
@@ -73,6 +78,11 @@ main #acciones #botones .boton2 {
   font-size: 16px;
   border: 1px solid #20497e;
   margin-left: 15px;
+  cursor: pointer;
+  transition: transform ease 300ms;
+}
+main #acciones #botones .boton2:hover {
+  transform: translateY(-0.25em);
 }
 
 aside {
@@ -88,15 +98,17 @@ aside {
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
 }
-aside div p {
+aside div #mostrarTexto {
   width: 360px;
-  height: 790px;
+  height: 770px;
   margin-left: 15px;
   padding-left: 10px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
   color: #495057;
+  word-break: break-all;
+  white-space: pre-wrap;
 }
 aside div #botonCopiar {
   background-color: white;
@@ -110,6 +122,17 @@ aside div #botonCopiar {
   position: absolute;
   left: 32px;
   top: 800px;
+  cursor: pointer;
+  transition: transform ease 300ms;
+}
+aside div #botonCopiar:hover {
+  transform: translateY(-0.25em);
+}
+aside div #mensajeCopiado {
+  font-family: "Inter";
+  position: absolute;
+  left: 140px;
+  top: 855px;
 }
 aside div img {
   position: absolute;

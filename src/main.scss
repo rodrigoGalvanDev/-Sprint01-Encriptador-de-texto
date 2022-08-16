@@ -71,7 +71,14 @@ main{
                 color: white;
                 font-size: 16px;
                 border: 1px solid $colorprimario;
+                cursor: pointer;
+                transition: transform ease 300ms;
             }
+
+            .boton1:hover{
+              transform: translateY(-0.25em);
+            }
+            
 
             .boton2{
                 background-color: #D8DFE8;
@@ -83,7 +90,13 @@ main{
                 font-size: 16px;
                 border: 1px solid $colorprimario;
                 margin-left: 15px;
+                cursor: pointer;
+                transition: transform ease 300ms;
             }
+
+            .boton2:hover{
+                transform: translateY(-0.25em);
+              }
         }
 
     }
@@ -115,15 +128,17 @@ aside{
     
     div{
 
-        p{  
+        #mostrarTexto{  
             width: 360px;
-            height: 790px;
+            height: 770px;
             margin-left: 15px;
             padding-left: 10px;
             font-family: 'Inter';
             font-weight: 400;
             font-size: 24px;
             color: #495057;
+            word-break: break-all;
+            white-space: pre-wrap;
         }
 
         #botonCopiar{
@@ -138,6 +153,20 @@ aside{
             position: absolute;
             left: 32px;
             top: 800px;
+            cursor: pointer;
+            transition: transform ease 300ms;
+        }
+
+        #botonCopiar:hover{
+            transform: translateY(-0.25em);
+          }
+
+        #mensajeCopiado{
+
+            font-family: 'Inter';
+            position: absolute;
+            left: 140px;
+            top: 855px;
         }
 
         img{
