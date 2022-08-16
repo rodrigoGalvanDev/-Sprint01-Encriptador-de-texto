@@ -13,7 +13,7 @@ function encriptar(){
 
     limpiar()
 
-    let regex = /[a-z ]+/gm
+    let regex = /^[a-z ]+$/gm
 
     if(regex.test($textInput.value) == true){
         var texto = $textInput.value;
@@ -34,7 +34,7 @@ function desencriptar(){
 
     limpiar()
 
-    let regex = /[a-z ]+/gm
+    let regex = /^[a-z ]+$/gm
 
     if(regex.test($textInput.value) == true){
         var texto = $textInput.value;
@@ -60,7 +60,7 @@ function limpiar(){
     $mostrarTexto.classList.add("oculto")
     $botonCopiar.classList.add("oculto")
     $mensajeCopiado.classList.add("oculto")
-    
+
 }
 
 function mostrarTexto(texto){
