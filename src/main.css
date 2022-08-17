@@ -170,6 +170,10 @@ aside div #consejo {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   header svg {
     left: 40px;
     top: 70px;
@@ -241,8 +245,8 @@ aside div #consejo {
 }
 @media only screen and (max-width: 440px) {
   html {
+    max-width: 100%;
     overflow-x: hidden;
-    width: 350px;
   }
   header {
     width: 350px;
@@ -256,12 +260,14 @@ aside div #consejo {
     width: 350px;
   }
   main #texto {
+    border: 1px solid blue;
     left: 40px;
     top: 100px;
   }
   main #texto textarea {
+    border: 1px solid red;
     font-size: 25px;
-    width: 340px;
+    width: 330px;
     height: 400px;
   }
   main #acciones .alerta {
