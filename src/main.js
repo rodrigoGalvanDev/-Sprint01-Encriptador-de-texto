@@ -8,6 +8,7 @@ const $mostrarTexto = document.querySelector("#mostrarTexto")
 const $botonCopiar = document.querySelector("#botonCopiar")
 const $mensajeCopiado = document.querySelector("#mensajeCopiado")
 const $bloqueTexto = document.querySelector("#bloqueTexto")
+const $credits = document.querySelector("#credits")
 
 
 function encriptar(){
@@ -68,6 +69,7 @@ function limpiar(){
 function mostrarTexto(texto){
 
     $mostrarTexto.classList.remove("oculto")
+    $credits.classList.add("oculto")
     $bloqueTexto.classList.add('fitcontent')
     $mostrarTexto.innerHTML = texto
 
@@ -91,6 +93,7 @@ function mostrarError(){
     $error.classList.remove("oculto")
     $consejo.classList.remove("oculto")
     $munieco.classList.remove("oculto")
+    $credits.classList.add("oculto")
 
 }
 

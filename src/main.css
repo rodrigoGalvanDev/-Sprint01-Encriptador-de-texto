@@ -7,6 +7,7 @@ header svg {
   position: absolute;
   left: 84px;
   top: 40px;
+  cursor: pointer;
 }
 
 main #texto {
@@ -92,9 +93,7 @@ aside {
   height: 900px;
   left: 1000px;
   top: 30px;
-  /* White */
   background: #FFFFFF;
-  /* shadow */
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
 }
@@ -163,6 +162,27 @@ aside div #consejo {
   font-size: 16px;
   text-align: center;
   color: #495057;
+}
+aside #credits {
+  margin-top: 350px;
+  margin-left: 40px;
+}
+aside #credits p {
+  font-family: "Inter";
+  font-size: 23px;
+  color: #20497e;
+}
+aside #credits a img {
+  width: 50px;
+  height: 50px;
+}
+aside #credits a .github {
+  margin-left: 70px;
+  margin-top: 200px;
+}
+aside #credits a .linkedin {
+  margin-left: 200px;
+  margin-top: 200px;
 }
 
 .oculto {
@@ -242,6 +262,31 @@ aside div #consejo {
     top: 0px;
     margin-left: 290px;
   }
+  aside #credits {
+    margin-top: 40px;
+    margin-left: 220px;
+  }
+  aside #credits p {
+    font-family: "Inter";
+    font-size: 20px;
+    color: #20497e;
+  }
+  aside #credits a {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  aside #credits a img {
+    width: 200px;
+    height: 200px;
+  }
+  aside #credits a .github {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  aside #credits a .linkedin {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 440px) {
   html {
@@ -260,12 +305,10 @@ aside div #consejo {
     width: 350px;
   }
   main #texto {
-    border: 1px solid blue;
     left: 40px;
     top: 100px;
   }
   main #texto textarea {
-    border: 1px solid red;
     font-size: 25px;
     width: 330px;
     height: 400px;
@@ -294,6 +337,7 @@ aside div #consejo {
     padding-bottom: 10px;
   }
   aside {
+    display: flex;
     width: 327px;
     height: 186px;
     left: 40px;
@@ -329,5 +373,14 @@ aside div #consejo {
     left: 0px;
     top: 0px;
     margin-left: 100px;
+  }
+  aside #credits {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  aside #credits p {
+    font-family: "Inter";
+    font-size: 20px;
+    color: #20497e;
   }
 }/*# sourceMappingURL=main.css.map */
