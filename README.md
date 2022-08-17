@@ -25,7 +25,7 @@
  
  ![Screenshot_2](https://user-images.githubusercontent.com/97800474/185190295-eb781ba7-f25f-41e2-9955-8b01039dcc9a.png)
 
- <p>Version Table</p>
+ <p>Version Tablet</p>
  
  ![Screenshot_3](https://user-images.githubusercontent.com/97800474/185190384-55207042-f439-4937-98fc-3bf858781049.png)
 
